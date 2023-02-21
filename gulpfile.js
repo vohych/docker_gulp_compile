@@ -2,28 +2,15 @@ const themeBlog = './compile/'
 const sourceFolder = themeBlog;
 const projectFolder = themeBlog;
 
-//let path = {
-//    build: {
-//        css: projectFolder + "/",
-//    },
-//    src: {
-//        css: sourceFolder + "*.scss",
-//    },
-//    watch: {
-//        css: sourceFolder + "*.scss",
-//    },
-//    clean: './' + projectFolder + '/'
-//}
-
 let path = {
     build: {
         css:  projectFolder + "/",
     },
     src: {
-        css: sourceFolder +  "**/*.scss",
+        css: sourceFolder +  "**/**/*.scss",
     },
     watch: {
-        css:  sourceFolder + "**/*.scss",
+        css:  sourceFolder + "**/**/*.scss",
     },
     clean: './'
 }
