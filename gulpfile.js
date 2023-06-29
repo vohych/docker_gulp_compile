@@ -4,7 +4,7 @@ const projectFolder = themeBlog;
 
 let path = {
     build: {
-        css:  projectFolder + "/",
+        css:  projectFolder,
     },
     src: {
         css: sourceFolder +  "**/**/*.scss",
@@ -12,7 +12,6 @@ let path = {
     watch: {
         css:  sourceFolder + "**/**/*.scss",
     },
-    clean: './'
 }
 
 let {src, dest} = require('gulp'),
