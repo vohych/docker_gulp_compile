@@ -1,10 +1,10 @@
-const themeBlog = '/'
+const themeBlog = './dashboard-reuse'
 const sourceFolder = themeBlog;
 const projectFolder = themeBlog;
 
 let path = {
     build: {
-        css:  projectFolder,
+        css:  projectFolder + '/',
     },
     src: {
         css: sourceFolder +  "**/**/*.scss",
