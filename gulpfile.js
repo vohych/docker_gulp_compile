@@ -1,4 +1,4 @@
-const themeBlog = './compile/'
+const themeBlog = '/'
 const sourceFolder = themeBlog;
 const projectFolder = themeBlog;
 
