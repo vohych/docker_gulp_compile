@@ -1,4 +1,4 @@
-const themeBlog = './dashboard-reuse'
+const themeBlog = './compile/'
 const sourceFolder = themeBlog;
 const projectFolder = themeBlog;
 
