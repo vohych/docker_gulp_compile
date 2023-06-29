@@ -1,4 +1,4 @@
-const themeBlog = '/'
+const themeBlog = './'
 const sourceFolder = themeBlog;
 const projectFolder = themeBlog;
 
